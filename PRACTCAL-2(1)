@@ -1,0 +1,22 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+
+int main()
+{
+	int a,b;
+	
+	cout<<"ENTER THE VALUE OF A;";
+	cin>>a;
+	
+	cout<<"ENTER THE VALUE OF B;";
+	cin>>b;
+	
+	cout<<"addition of two number"<<a+b<<endl;
+	cout<<"substraction of two number"<<a-b<<endl;
+	cout<<"division of two number"<<a/b<<endl;
+	cout<<"multiplication of two number"<<a*b<<endl;
+	cout<<"modulos of two number"<<a%b<<endl;
+	
+	return 0;
+}
